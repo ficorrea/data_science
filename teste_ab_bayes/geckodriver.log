@@ -1,0 +1,300 @@
+1669669473187	geckodriver	INFO	Listening on 127.0.0.1:47685
+1669669473241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7ESIMp"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669669474225	Marionette	INFO	Marionette enabled
+1669669474234	Marionette	INFO	Listening on port 44007
+Read port: 44007
+WebDriver BiDi listening on ws://127.0.0.1:58175
+1669669474423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7ESIMp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58175/devtools/browser/2553d98e-fbab-4a1c-94cd-97d671a569e6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1669669499121	Marionette	INFO	Stopped listening on port 44007
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+/home/felipe/Documentos/ab_bayes/geckodriver: error: invalid --port: invalid digit found in string: Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+geckodriver 0.32.0 (4563dd583110 2022-10-13 09:22 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+/home/felipe/Documentos/ab_bayes/geckodriver: error: invalid --port: invalid digit found in string: Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+geckodriver 0.32.0 (4563dd583110 2022-10-13 09:22 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1669671334280	geckodriver	INFO	Listening on 127.0.0.1:44285
+1669671334340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekqacXY"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669671335195	Marionette	INFO	Marionette enabled
+1669671335203	Marionette	INFO	Listening on port 37723
+Read port: 37723
+WebDriver BiDi listening on ws://127.0.0.1:49805
+1669671335371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekqacXY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49805/devtools/browser/7ac49a84-cd63-4a26-aeab-afc459c322ac
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1669671337597	Marionette	INFO	Stopped listening on port 37723
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1669671379017	geckodriver	INFO	Listening on 127.0.0.1:41779
+1669671379108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileM3q1w0"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669671379801	Marionette	INFO	Marionette enabled
+1669671379805	Marionette	INFO	Listening on port 46253
+Read port: 46253
+WebDriver BiDi listening on ws://127.0.0.1:32987
+1669671379907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM3q1w0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:32987/devtools/browser/47108bda-8397-4e1d-ba74-49074a2ec633
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1669671388873	Marionette	INFO	Stopped listening on port 46253
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669671474084	geckodriver	INFO	Listening on 127.0.0.1:46021
+1669671474135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41433" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2silHZ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669671474976	Marionette	INFO	Marionette enabled
+1669671474981	Marionette	INFO	Listening on port 40887
+Read port: 40887
+WebDriver BiDi listening on ws://127.0.0.1:41433
+1669671475132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2silHZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41433/devtools/browser/aaa6054d-5f30-49ed-85a2-78b01d352aca
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1669671521512	Marionette	INFO	Stopped listening on port 40887
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
