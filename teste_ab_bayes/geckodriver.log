@@ -1,256 +1,501 @@
-1669669473187	geckodriver	INFO	Listening on 127.0.0.1:47685
-1669669473241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7ESIMp"
+1671214987621	geckodriver	INFO	Listening on 127.0.0.1:45671
+1671214987621	geckodriver	INFO	Listening on 127.0.0.1:37761
+1671214987700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefKp6u5"
+1671214988127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJAj1nw"
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1669669474225	Marionette	INFO	Marionette enabled
-1669669474234	Marionette	INFO	Listening on port 44007
-Read port: 44007
-WebDriver BiDi listening on ws://127.0.0.1:58175
-1669669474423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7ESIMp/search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:58175/devtools/browser/2553d98e-fbab-4a1c-94cd-97d671a569e6
+1671214988747	Marionette	INFO	Marionette enabled
+1671214988761	Marionette	INFO	Listening on port 38247
+Read port: 38247
+WebDriver BiDi listening on ws://127.0.0.1:42799
+1671214989041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671214989192	Marionette	INFO	Marionette enabled
+1671214989196	Marionette	INFO	Listening on port 42283
+Read port: 42283
+
+!!! could not start server on port 42799: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: _start :: line 587"  data: no]
+
+1671214989479	RemoteAgent	ERROR	unable to stop listener: [Exception... "Unexpected error"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: stop :: line 641"  data: no] Stack trace: stop()@HTTPD.jsm:641
+#stop()@sys.mjs:323
+1671214989482	RemoteAgent	ERROR	Unable to start remote agent: : [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: _start :: line 632"  data: no] Stack trace: _start()@HTTPD.jsm:632
+#listen()@sys.mjs:241
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefKp6u5/search.json.mozlz4", (void 0)))
+1671214989976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:42799/devtools/browser/a659a230-0ea5-4fb8-95e7-b5b43c978041
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJAj1nw/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-1669669499121	Marionette	INFO	Stopped listening on port 44007
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215016517	Marionette	INFO	Stopped listening on port 38247
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-/home/felipe/Documentos/ab_bayes/geckodriver: error: invalid --port: invalid digit found in string: Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
-geckodriver 0.32.0 (4563dd583110 2022-10-13 09:22 +0000) 
-WebDriver implementation for Firefox
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
 
-USAGE:
-    geckodriver [OPTIONS]
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
 
-OPTIONS:
-        --allow-hosts <ALLOW_HOSTS>...
-            List of hostnames to allow. By default the value of --host is allowed, and in addition
-            if that's a well known local address, other variations on well known local addresses are
-            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
 
-        --allow-origins <ALLOW_ORIGINS>...
-            List of request origins to allow. These must be formatted as scheme://host:port. By
-            default any request with an origin header is rejected. If --allow-origins is provided
-            then only exactly those origins are allowed.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
 
-        --android-storage <ANDROID_STORAGE>
-            Selects storage location to be used for test data (deprecated). [possible values: auto,
-            app, internal, sdcard]
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
 
-    -b, --binary <BINARY>
-            Path to the Firefox binary
-
-        --connect-existing
-            Connect to an existing Firefox instance
-
-    -h, --help
-            Prints this message
-
-        --host <HOST>
-            Host IP to use for WebDriver server [default: 127.0.0.1]
-
-        --jsdebugger
-            Attach browser toolbox debugger for Firefox
-
-        --log <LEVEL>
-            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
-
-        --marionette-host <HOST>
-            Host to use to connect to Gecko [default: 127.0.0.1]
-
-        --marionette-port <PORT>
-            Port to use to connect to Gecko [default: system-allocated port]
-
-    -p, --port <PORT>
-            Port to use for WebDriver server [default: 4444]
-
-        --profile-root <PROFILE_ROOT>
-            Directory in which to create profiles. Defaults to the system temporary directory.
-
-    -v
-            Log level verbosity (-v for debug and -vv for trace level)
-
-    -V, --version
-            Prints version and copying information
-
-        --websocket-port <PORT>
-            Port to use to connect to WebDriver BiDi [default: 9222]
-
-/home/felipe/Documentos/ab_bayes/geckodriver: error: invalid --port: invalid digit found in string: Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
-geckodriver 0.32.0 (4563dd583110 2022-10-13 09:22 +0000) 
-WebDriver implementation for Firefox
-
-USAGE:
-    geckodriver [OPTIONS]
-
-OPTIONS:
-        --allow-hosts <ALLOW_HOSTS>...
-            List of hostnames to allow. By default the value of --host is allowed, and in addition
-            if that's a well known local address, other variations on well known local addresses are
-            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
-
-        --allow-origins <ALLOW_ORIGINS>...
-            List of request origins to allow. These must be formatted as scheme://host:port. By
-            default any request with an origin header is rejected. If --allow-origins is provided
-            then only exactly those origins are allowed.
-
-        --android-storage <ANDROID_STORAGE>
-            Selects storage location to be used for test data (deprecated). [possible values: auto,
-            app, internal, sdcard]
-
-    -b, --binary <BINARY>
-            Path to the Firefox binary
-
-        --connect-existing
-            Connect to an existing Firefox instance
-
-    -h, --help
-            Prints this message
-
-        --host <HOST>
-            Host IP to use for WebDriver server [default: 127.0.0.1]
-
-        --jsdebugger
-            Attach browser toolbox debugger for Firefox
-
-        --log <LEVEL>
-            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
-
-        --marionette-host <HOST>
-            Host to use to connect to Gecko [default: 127.0.0.1]
-
-        --marionette-port <PORT>
-            Port to use to connect to Gecko [default: system-allocated port]
-
-    -p, --port <PORT>
-            Port to use for WebDriver server [default: 4444]
-
-        --profile-root <PROFILE_ROOT>
-            Directory in which to create profiles. Defaults to the system temporary directory.
-
-    -v
-            Log level verbosity (-v for debug and -vv for trace level)
-
-    -V, --version
-            Prints version and copying information
-
-        --websocket-port <PORT>
-            Port to use to connect to WebDriver BiDi [default: 9222]
-
-1669671334280	geckodriver	INFO	Listening on 127.0.0.1:44285
-1669671334340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekqacXY"
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-1669671335195	Marionette	INFO	Marionette enabled
-1669671335203	Marionette	INFO	Listening on port 37723
-Read port: 37723
-WebDriver BiDi listening on ws://127.0.0.1:49805
-1669671335371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekqacXY/search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:49805/devtools/browser/7ac49a84-cd63-4a26-aeab-afc459c322ac
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-1669671337597	Marionette	INFO	Stopped listening on port 37723
-console.error: services.settings: 
-  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
-1669671379017	geckodriver	INFO	Listening on 127.0.0.1:41779
-1669671379108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileM3q1w0"
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-1669671379801	Marionette	INFO	Marionette enabled
-1669671379805	Marionette	INFO	Listening on port 46253
-Read port: 46253
-WebDriver BiDi listening on ws://127.0.0.1:32987
-1669671379907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM3q1w0/search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:32987/devtools/browser/47108bda-8397-4e1d-ba74-49074a2ec633
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-1669671388873	Marionette	INFO	Stopped listening on port 46253
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215019250	Marionette	INFO	Stopped listening on port 42283
+1671215019263	RemoteAgent	ERROR	unable to stop listener: [Exception... "Unexpected error"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: stop :: line 641"  data: no] Stack trace: stop()@HTTPD.jsm:641
+#stop()@sys.mjs:323
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-1669671474084	geckodriver	INFO	Listening on 127.0.0.1:46021
-1669671474135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41433" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2silHZ"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671215129936	geckodriver	INFO	Listening on 127.0.0.1:33871
+1671215129981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45235" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9Zp6ee"
+1671215130837	geckodriver	INFO	Listening on 127.0.0.1:44717
+1671215130876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledpM7QE"
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
-1669671474976	Marionette	INFO	Marionette enabled
-1669671474981	Marionette	INFO	Listening on port 40887
-Read port: 40887
-WebDriver BiDi listening on ws://127.0.0.1:41433
-1669671475132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2silHZ/search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:41433/devtools/browser/aaa6054d-5f30-49ed-85a2-78b01d352aca
+1671215131019	Marionette	INFO	Marionette enabled
+1671215131024	Marionette	INFO	Listening on port 37267
+Read port: 37267
+WebDriver BiDi listening on ws://127.0.0.1:45235
+1671215131196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9Zp6ee/search.json.mozlz4", (void 0)))
+1671215132152	Marionette	INFO	Marionette enabled
+1671215132162	Marionette	INFO	Listening on port 46657
+Read port: 46657
+WebDriver BiDi listening on ws://127.0.0.1:42715
+1671215132362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:45235/devtools/browser/74d03960-6493-4264-a712-00c1b5fb40ce
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledpM7QE/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+DevTools listening on ws://127.0.0.1:42715/devtools/browser/4f3a3b5a-2024-4f91-9700-4eb050f2bde2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
@@ -278,23 +523,1257 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://1
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
-1669671521512	Marionette	INFO	Stopped listening on port 40887
+1671215160780	Marionette	INFO	Stopped listening on port 46657
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671215162423	Marionette	INFO	Stopped listening on port 37267
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671215251841	geckodriver	INFO	Listening on 127.0.0.1:46261
+1671215251882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecTjOl6"
+1671215252375	geckodriver	INFO	Listening on 127.0.0.1:56309
+1671215252419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilef3ynP7"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215252900	Marionette	INFO	Marionette enabled
+1671215252906	Marionette	INFO	Listening on port 33125
+Read port: 33125
+WebDriver BiDi listening on ws://127.0.0.1:58213
+1671215253058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215253686	Marionette	INFO	Marionette enabled
+1671215253694	Marionette	INFO	Listening on port 36815
+Read port: 36815
+WebDriver BiDi listening on ws://127.0.0.1:41725
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecTjOl6/search.json.mozlz4", (void 0)))
+1671215253878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58213/devtools/browser/27069872-699f-40b2-a9a7-3043569b8ac6
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef3ynP7/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+DevTools listening on ws://127.0.0.1:41725/devtools/browser/58b5bdec-1a52-4ba1-ac6e-67ff8fb485f4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1671215267700	Marionette	INFO	Stopped listening on port 33125
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671215297086	geckodriver	INFO	Listening on 127.0.0.1:44183
+1671215297093	geckodriver	INFO	Listening on 127.0.0.1:33095
+1671215297148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQGy3Nx"
+1671215297148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8wS94y"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215298192	Marionette	INFO	Marionette enabled
+1671215298196	Marionette	INFO	Listening on port 35199
+Read port: 35199
+WebDriver BiDi listening on ws://127.0.0.1:54351
+1671215298355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215298922	Marionette	INFO	Marionette enabled
+1671215298926	Marionette	INFO	Listening on port 39401
+Read port: 39401
+WebDriver BiDi listening on ws://127.0.0.1:47277
+1671215299044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQGy3Nx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47277/devtools/browser/a31ad7df-3996-4f91-9514-d9e87130222c
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8wS94y/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+DevTools listening on ws://127.0.0.1:54351/devtools/browser/6e5229b5-0adf-47e7-b66c-db35e91ab7f1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215381333	Marionette	INFO	Stopped listening on port 35199
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671215381477	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-12-16T18:29:41Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215382684	Marionette	INFO	Stopped listening on port 39401
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671215382987	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1671215483614	geckodriver	INFO	Listening on 127.0.0.1:39777
+1671215483615	geckodriver	INFO	Listening on 127.0.0.1:41501
+1671215483688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33579" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejaxE3u"
+1671215484156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUTIrw6"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215484828	Marionette	INFO	Marionette enabled
+1671215484832	Marionette	INFO	Listening on port 44109
+Read port: 44109
+WebDriver BiDi listening on ws://127.0.0.1:33579
+1671215484997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215485276	Marionette	INFO	Marionette enabled
+1671215485281	Marionette	INFO	Listening on port 41095
+Read port: 41095
+WebDriver BiDi listening on ws://127.0.0.1:47705
+1671215485427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejaxE3u/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUTIrw6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33579/devtools/browser/5ad306c5-6d06-4d12-a7e3-61c48e3c5fbb
+DevTools listening on ws://127.0.0.1:47705/devtools/browser/d8ecd690-56cc-4259-9aa0-83bba7ce4bf6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215561970	Marionette	INFO	Stopped listening on port 44109
+1671215563475	Marionette	INFO	Stopped listening on port 41095
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671215719909	geckodriver	INFO	Listening on 127.0.0.1:43923
+1671215720018	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileENGVmG"
+1671215720066	geckodriver	INFO	Listening on 127.0.0.1:59647
+1671215720124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXGX3NI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215720951	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215720960	Marionette	INFO	Listening on port 39227
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215721009	Marionette	INFO	Marionette enabled
+1671215721012	Marionette	INFO	Listening on port 38121
+Read port: 39227
+Read port: 38121
+WebDriver BiDi listening on ws://127.0.0.1:51751
+WebDriver BiDi listening on ws://127.0.0.1:44715
+1671215721158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671215721159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileENGVmG/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXGX3NI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44715/devtools/browser/23e6e70b-448e-47fb-9108-0585c07e8b52
+DevTools listening on ws://127.0.0.1:51751/devtools/browser/c4b1dd7c-ae0f-40dd-bb03-6d0708979dc4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+1671215775205	Marionette	INFO	Stopped listening on port 38121
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671215775247	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+[2022-12-16T18:36:15Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215777792	Marionette	INFO	Stopped listening on port 39227
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1671215777920	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@sys.mjs:51
+destroy()@sys.mjs:201
+deleteSession()@sys.mjs:142
+stop()@sys.mjs:221
+observe()@resource://gre/modules/AsyncShutdown.jsm:560
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+1671215778131	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-12-16T18:36:18Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671215819018	geckodriver	INFO	Listening on 127.0.0.1:50079
+1671215819026	geckodriver	INFO	Listening on 127.0.0.1:39285
+1671215819056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejyzf6b"
+1671215819310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileW8387l"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215820278	Marionette	INFO	Marionette enabled
+1671215820286	Marionette	INFO	Listening on port 41011
+Read port: 41011
+WebDriver BiDi listening on ws://127.0.0.1:59999
+1671215820452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215820880	Marionette	INFO	Marionette enabled
+1671215820886	Marionette	INFO	Listening on port 41605
+Read port: 41605
+WebDriver BiDi listening on ws://127.0.0.1:37159
+1671215821109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW8387l/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejyzf6b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59999/devtools/browser/bd33597a-a795-46d7-9a58-42adcf1207c4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+DevTools listening on ws://127.0.0.1:37159/devtools/browser/fbd40bb2-ef6b-4f66-a86f-dc1e5582b9f6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215880424	Marionette	INFO	Stopped listening on port 41011
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671215882952	Marionette	INFO	Stopped listening on port 41605
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671215883107	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-12-16T18:38:03Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1671215904553	geckodriver	INFO	Listening on 127.0.0.1:50847
+1671215904562	geckodriver	INFO	Listening on 127.0.0.1:60145
+1671215904597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2zRTYh"
+1671215904607	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevF0TTS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671215905743	Marionette	INFO	Marionette enabled
+1671215905747	Marionette	INFO	Listening on port 35397
+1671215905776	Marionette	INFO	Marionette enabled
+1671215905785	Marionette	INFO	Listening on port 39299
+Read port: 35397
+Read port: 39299
+WebDriver BiDi listening on ws://127.0.0.1:47393
+1671215905868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:59877
+1671215905959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2zRTYh/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevF0TTS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47393/devtools/browser/4f418488-2bb9-4a1a-a309-695d0062f96d
+DevTools listening on ws://127.0.0.1:59877/devtools/browser/3c45d8ca-e741-44ee-9f7a-625a8dd8b8dd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:5001."
+1671216078757	Marionette	INFO	Stopped listening on port 39299
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671216079352	Marionette	INFO	Stopped listening on port 35397
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
