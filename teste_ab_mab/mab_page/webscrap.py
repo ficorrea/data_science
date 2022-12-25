@@ -5,7 +5,7 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 driver.get('http://127.0.0.1:5000/home')
 
-PROB_TREAT, PROB_CTR = 0.42, 0.4
+PROB_TREAT, PROB_CTR = 0.32, 0.3
 
 clicks = 100
 for click in range(clicks + 1):

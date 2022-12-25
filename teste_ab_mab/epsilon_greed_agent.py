@@ -47,8 +47,6 @@ class EpsilonGreedyAgent():
         acummulated_reward_array = []
         avg_acummulated_reward_array = []
 
-
-
         # criando valores de decaimento
         eps_decay = [self.calc_exp_decay(decay, i) for i in range(trials)]
 

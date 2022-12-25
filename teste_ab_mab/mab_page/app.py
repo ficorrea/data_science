@@ -2,16 +2,19 @@ from flask import Flask, render_template, redirect, url_for, request
 import pandas as pd
 import numpy as np
 
-from random import random
-
 app = Flask(__name__)
 
 VISIT = int(1)
 CONTROL = 'control'
 TREATMENT = 'treatment'
 
-def treatment_data(df, field):
-    data = df.groupby(field).sum().reset_index()[['click', 'no_click']].T
+def treatment_data(df, group_field, comparison_fields=[None, None]):
+    data = (
+        df
+        .groupby(group_field)
+        .sum()
+        .reset_index()[comparison_fields]
+        .T)
     data = data.to_numpy()
     return data[0], data[1]
 
@@ -26,18 +29,54 @@ def fill_csv(data):
     df = pd.concat([df_main, df_event])
     df.to_csv('data_experiment.csv', index=False, encoding='utf8')
 
-def mab(success, failure):
+def save_proportion_data(data):
+    with open('data.txt', 'a+') as file:
+        file.writelines(f'{data}\n')
+
+def thompson_mab(success, failure):
     '''Thompson Agent'''
     prob_reward = np.random.beta(success, failure)
     return np.argmax(prob_reward)
+
+def greedy_mab(clicks, visits):
+    '''Greedy Agent'''
+    proportion = clicks / visits
+    save_proportion_data(proportion)
+    if len(set(proportion)) != 1:
+        return np.argmax(proportion)
+    else:
+        return np.random.randint(low=0, high=2, size=1)[0]
+
+def calc_linear_decay(r, x):
+    return 1 * (1 - r)**x
+    
+def calc_exp_decay(k, t):
+    return 1 * np.exp(-k*t)
+    
+def epsilon_greedy_mab(epsilon, clicks, visits):
+    if epsilon >= 0.5:
+        return np.random.randint(low=0, high=2, size=1)[0]
+    else:
+        return greedy_mab(clicks, visits)
 
 @app.route('/home')
 def index():
     df = pd.read_csv('data_experiment.csv')
     df['no_click'] = df.apply(lambda x: x['visit'] - x['click'], axis=1)
-    success, failure = treatment_data(df, 'group')
-    
-    bandit = mab(success, failure)
+
+    # Greedy MAB
+    # clicks, visits = treatment_data(df, 'group', ['click', 'visit'])
+    # bandit = greedy_mab(clicks, visits)
+
+    # Epsilon Greedy MAB
+    decay = 0.7
+    epsilon = calc_exp_decay(decay, df.shape[0])
+    clicks, visits = treatment_data(df, 'group', ['click', 'visit'])
+    bandit = epsilon_greedy_mab(epsilon, clicks, visits)
+
+    # # Thompson MAB
+    # success, failure = treatment_data(df, 'group', ['click', 'no_click'])
+    # bandit = thompson_mab(success, failure)
     
     if not bandit:
         return render_template('page_layout_blue.html')
