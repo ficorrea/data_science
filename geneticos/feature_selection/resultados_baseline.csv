@@ -1,0 +1,4 @@
+Modelo,Score
+AdaBoost,0.719
+RandomForest,0.735
+SupportVectorMachine,0.749
