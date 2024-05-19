@@ -61,7 +61,7 @@ class GeneticFeatures():
         proportions = [i[-1] / total for i in self.pop]
         for i in range(self.total_selection):
             rnd = random() * random()
-            diff = [abs(rnd - i) for i in proportions]
+            diff = [abs(rnd - j) for j in proportions]
             new_pop.append(self.pop[diff.index(min(diff))].copy())
         self.pop = new_pop.copy()
 
