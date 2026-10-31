@@ -1,0 +1,70 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Variáveis e segredos
+.env
+.env.*
+*.pem
+
+# Dados e artefatos de ciência de dados
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.db
+*.sqlite3
+*.zip
+*.tar
+*.gz
+*.tar.gz
+
+# Modelos / artefatos de ML
+models/
+artifacts/
+checkpoints/
+logs/
+wandb/
+mlruns/
+
+# Cache de ferramentas
+.cache/
+.tmp/
+tmp/
